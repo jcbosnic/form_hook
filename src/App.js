@@ -1,7 +1,7 @@
 import './App.css';
 import PersonCard from './componentes/Person-card';
 
-function App(props) {
+function App() {
   return (
     <div >
       <PersonCard name={"Juan Carlos"} age={40} hair={"negro"}  />
