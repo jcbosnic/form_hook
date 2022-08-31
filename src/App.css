@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.headerContainer {
+  background: yellow;
+  height: 100px;
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+
+.navegation {
+  background: blue;
+  height: 600px;
+  width: 20%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.section {
+  background: lightgray;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 0 0 auto;
+  padding: 20px;
+  width: 70%;
+}
+
+.subContent {
+  background: green;
+  height: 75%;
+  width: 30%;
+}
+
+.advertesiment {
+  background: red;
+  height: 20%;
+  width: 100%;
+}
+

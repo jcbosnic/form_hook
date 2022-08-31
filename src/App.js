@@ -1,13 +1,22 @@
 import './App.css';
-import PersonCard from './componentes/Person-card';
+import Header from './componentes/header';
+import Navegaton from './componentes/navegation';
+import SubContent from './componentes/subContents';
+import Advertesiment from './componentes/advertesiment';
+
 
 function App() {
   return (
-    <div >
-      <PersonCard name={"Juan Carlos"} age={40} hair={"negro"}  />
-      <PersonCard name={"Felipe"} age={32} hair={"cafe"}  />
-      <PersonCard name={"Rodrigo"} age={26} hair={"rubio"}  />
-      <PersonCard name={"Daisy"} age={39} hair={"rojo"}  />
+    <div className='main'>
+      <Header />
+      <Navegaton />
+      <div className='section'>
+         <SubContent />
+         <SubContent />
+         <SubContent />
+         <Advertesiment />
+      </div>
+
     </div>
   );
 }
